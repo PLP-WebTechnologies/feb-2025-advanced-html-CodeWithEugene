@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Advanced HTML Example">
+    <title>Advanced HTML Example</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Advanced HTML Example</h1>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Ordered List</h2>
+        <ol type="I">
+            <li>First Item</li>
+            <li>Second Item</li>
+            <li>Third Item</li>
+        </ol>
+    </section>
+
+    <!-- External Image -->
+    <section>
+        <h2>External Image</h2>
+        <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg" alt="Beautiful Kenyan Scenery" width="600">
+    </section>
+
+    <!-- Table of Contacts -->
+    <section>
+        <h2>Contact List</h2>
+        <table border="1" cellpadding="10" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Juma Mwangi</td>
+                    <td>Uhuru Street, Nairobi</td>
+                    <td>+254700123456</td>
+                    <td>juma.mwangi@example.ke</td>
+                </tr>
+                <tr>
+                    <td>Achieng Odongo</td>
+                    <td>Mwangaza Road, Mombasa</td>
+                    <td>+254711234567</td>
+                    <td>achieng.odongo@example.ke</td>
+                </tr>
+                <tr>
+                    <td>Kamau Njoroge</td>
+                    <td>Taifa Avenue, Kisumu</td>
+                    <td>+254722345678</td>
+                    <td>kamau.njoroge@example.ke</td>
+                </tr>
+                <tr>
+                    <td>Wambui Wanjiku</td>
+                    <td>Pwani Lane, Malindi</td>
+                    <td>+254733456789</td>
+                    <td>wambui.wanjiku@example.ke</td>
+                </tr>
+                <tr>
+                    <td>Otieno Ochieng</td>
+                    <td>Kilimani Road, Nairobi</td>
+                    <td>+254744567890</td>
+                    <td>otieno.ochieng@example.ke</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="POST">
+            <!-- Name Field -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br><br>
+
+            <!-- Email Field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <!-- Password Field -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <br><br>
+
+            <!-- Date Field -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+            <!-- Dropdown -->
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="kenya">Kenya</option>
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+            </select>
+            <br><br>
+
+            <!-- Radio Buttons -->
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+            <br><br>
+
+            <!-- Checkboxes -->
+            <label>Interests:</label>
+            <input type="checkbox" id="coding" name="interests" value="coding">
+            <label for="coding">Coding</label>
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Music</label>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label>
+            <br><br>
+
+            <!-- Submit Button -->
+            <button type="submit">Register</button>
+        </form>
+    </section>
+</body>
+
+</html>
